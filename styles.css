@@ -1,0 +1,170 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/inter-v12-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/inter-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/inter-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
+}
+
+/* dm-serif-display-regular - latin */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/dm-serif-display-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/dm-serif-display-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/dm-serif-display-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/dm-serif-display-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/dm-serif-display-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/dm-serif-display-v10-latin-regular.svg#DMSerifDisplay') format('svg'); /* Legacy iOS */
+}
+
+/* Universal */
+* {
+  font-family: Inter, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 36px;
+}
+
+section {
+  max-width: 920px;
+  padding: 0 40px;
+  margin: 60px auto;
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  padding: 5em 0;
+  background: linear-gradient(90deg, #fb5f74 0%, #FF7082 20%, #C0E9FF 100%);
+}
+
+.hero h1 {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  font-size: 5em;
+  color: white;
+}
+
+.hero p {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  margin-top: 0;
+}
+
+/* Colors */
+.colors div {
+  padding: 20px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color:rgb(227, 227, 227);
+}
+
+#ultra-red {
+  background-color: #FF7082;
+}
+
+#naples-yellow {
+  background-color: #F9DC5C;
+}
+
+#oxford-blue {
+  color: white;
+  background-color: #011936;
+}
+
+#black-coral {
+  color: white;
+  background-color: #465362;
+}
+
+#uranian-blue {
+  background-color: #C0E9FF;
+}
+
+#azure {
+  background: linear-gradient(90deg, #FF7082 0%, #C0E9FF 65%);
+}
+
+/* Fonts */
+.font-container + .font-container {
+  margin-top: 50px;
+}
+
+#dm-serif-display h3,
+#dm-serif-display p {
+  font-family: "DM Serif Display", Georgia, 'Times New Roman', Times, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+/* Text Styles */
+.text-styles {
+  max-width: 100%;
+  background-color: rgb(245, 245, 245);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.text-styles h2,
+.text-style-container {
+  max-width: 840px;
+  margin: 20px auto;
+}☺
+
+.text-style-container h1,
+.text-style-container h2,
+.text-style-container p {
+  margin: 0;
+}
+
+.text-style-container h1 {
+  margin-top: 1em;
+}
+
+.text-style-container ul {
+  margin-top: .5em;
+  margin-bottom: 2em;
+}
