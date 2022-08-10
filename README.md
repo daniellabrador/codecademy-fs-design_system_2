@@ -1,6 +1,6 @@
 # **Azure Style Guide**
 
-This style guide is my second iteration to the [Codecademy project prompt](#codecademy-project-prompt) below with the time limit of two hours, including the conceptualization and the writing of contents. My first iteration was called "[Fire and Ice](https://daniellabrador.github.io/codecademy-fs-design_system)" which was done with more time in my hands but with less experience.
+This style guide is my second iteration to the [Codecademy project prompt](#codecademy-project-prompt) below with the time limit of two hours, including the conceptualization and the writing of contents. My first iteration was called "[Fire and Ice](https://github.com/daniellabrador/codecademy-fs-design_system)" which was done with more time in my hands but with less experience.
 
 ## Table of Contents
 
